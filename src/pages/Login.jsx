@@ -5,7 +5,7 @@ export default function Login() {
   return (
     <body className="flex justify-center items-center min-h-screen">
       <div className="border-[1px] border-gray-300 rounded-[10px] w-[80%] h-max flex flex-col items-center">
-        <img src={Logo} className="w-[20vw] my-[20px]" />
+        <img src={Logo} className="w-[20vw] my-[20px]" alt="logo" />
         <form className="flex flex-col justify-center items-center gap-3">
           <input
             type="text"
